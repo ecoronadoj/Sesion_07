@@ -41,9 +41,10 @@ Si no se arrojaron errores por parte de R, vamos a explorar la BDD
 
 ```R
 dbListTables(MyDataBase)
-
+```
 ![](tablas.jpg)
 
+```R
 dbListFields(MyDataBase, 'City')
 
 DataDB <- dbGetQuery(MyDataBase, "select * from City")
