@@ -44,23 +44,35 @@ dbListTables(MyDataBase)
 ```
 ![](tablas.jpg)
 
+Ahora si se quieren desplegar los campos o variables que contiene la tabla `City` se hará lo siguiente 
 ```R
 dbListFields(MyDataBase, 'City')
+```
 
+Para realizar una consulta tipo MySQL sobre la tabla seleccionada haremos lo siguiente 
+```R
 DataDB <- dbGetQuery(MyDataBase, "select * from City")
+```
 
-head(DataDB)
+Observemos que el objeto `DataDB` es un data frame, por lo tanto ya es un objeto de R y podemos aplicar los comandos usuales
+
+```R
 class(DataDB)
+head(DataDB)
 
-pop.mean <- mean(DataDB$Population)
+pop.mean <- mean(DataDB$Population)  # Media a la variable de población
 pop.mean 
 
-pop.3 <- pop.mean *3
+pop.3 <- pop.mean *3   # Operaciones aritméticas
 pop.3
+```
 
+Incluso podemos hacer unos de otros comandos de busqueda aplicando la libreria `dplyr` 
+````R
 library(dplyr)
 pop50.mex <-  DataDB %>% filter(CountryCode == "MEX" ,  Population > 50000)
 
 head(pop50.mex)
 
 unique(DataDB$CountryCode)
+```
