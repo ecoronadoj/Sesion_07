@@ -59,7 +59,11 @@ Observemos que el objeto `DataDB` es un data frame, por lo tanto ya es un objeto
 ```R
 class(DataDB)
 head(DataDB)
+```
+![](tablas2.jpg)
 
+
+```R
 pop.mean <- mean(DataDB$Population)  # Media a la variable de población
 pop.mean 
 
