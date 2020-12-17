@@ -60,7 +60,8 @@ Observemos que el objeto `DataDB` es un data frame, por lo tanto ya es un objeto
 class(DataDB)
 head(DataDB)
 ```
-![](tablas2.jpg)
+
+![](tabla2.jpg)
 
 
 ```R
