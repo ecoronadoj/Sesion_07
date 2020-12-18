@@ -1,20 +1,20 @@
-Crear el repositorio en Github
+## Crear el repositorio en Github
 
 ![](reto1.png)
 
-Vincularlo en RStudio
+## Vincularlo en RStudio
 
 ![](reto1_git.png)
 
-Realizar el commit y push
+## Realizar el commit y push
 
 ![](push.png)
 
-Comprobación del push en Github
+## Comprobación del push en Github
 
 ![](pushtogit.png)
 
-Código del reto 
+## Código del reto 
 
 ```R
 install.packages("DBI")
