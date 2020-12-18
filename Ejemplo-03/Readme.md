@@ -1,7 +1,7 @@
-# Ejemplo 3. 
+# Ejemplo 3. Variantes en la lectura de BDD con R
 
 #### Objetivo
-- Utilizar la libreria `dplyr` y `pool` para hacer queries a **MySQL**
+- Utilizar la libreria `dplyr` , `pool` y `DBI` para hacer queries a **MySQL**
 
 #### Requisitos
 - Libreria `dplyr`
