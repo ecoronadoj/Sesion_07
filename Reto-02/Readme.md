@@ -1,4 +1,4 @@
-# Reto 2. 
+# Reto 2. Extracción de tablas en un HTML
 
 De la siguiente dirección donde se muestran los sueldos para _Data Scientist_ 
 
