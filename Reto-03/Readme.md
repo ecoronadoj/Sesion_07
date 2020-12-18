@@ -7,4 +7,3 @@ Del script generado en el reto 2
 
 - Realizar el `pull` (mandarlo a RStudio) 
 
-- Correr el script en RStudio
