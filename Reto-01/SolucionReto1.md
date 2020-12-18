@@ -1,13 +1,17 @@
 Crear el repositorio en Github
+
 ![](reto1.png)
 
 Vincularlo en RStudio
+
 ![](reto1_git.png)
 
 Realizar el commit y push
+
 ![](push.png)
 
 Comprobación del push en Github
+
 ![](pushtogit.png)
 
 Código del reto 
